@@ -1,0 +1,77 @@
+@font-face {
+    src: url(NanumGothic-Regular.ttf);
+    font-family: "Nanum-Gothic";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nanum-Gothic", Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background: #F8ECD1;
+}
+
+.container {
+    position: relative;
+    max-width: 400px;
+    width: 100%;
+    background: #DEB6AB;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 10px;
+    margin-top: 200px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    font-size: 20px;
+    color: #333;
+    font-weight: 500;
+    text-align: center;
+}
+
+textarea {
+    font-size: 17px;
+    width: 100%;
+    border-radius: 15px;
+    height: 80px;
+    margin: 20px 0;
+    padding: 10px 15px;
+    resize: none;
+    outline: none;
+    border: 1px solid #aaa;
+    transition: all 0.3s ease;
+}
+
+textarea:focus {
+    box-shadow: 0 5px 10px #AC7D88;
+}
+
+button {
+    font-size: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    width: 100%;
+    padding: 14px 0;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    background: #AC7D88;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: #85586F;
+    box-shadow: 0 5px 10px #AC7D88;
+}
+
+button:active {
+    transform: scale(0.9);
+}
